@@ -31,6 +31,7 @@
 
 vi:
   ruby_on_rails_tutorial: "Hướng dẫn về Ruby on Rails"
+  ruby_on_rails_tutorial_sample_app: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   book: "sách"
   screencast: "video"
   header:
@@ -59,8 +60,8 @@ vi:
     book: "book"
   about:
     title: "Về chúng tôi"
-    description_html: "%{tutorial_link}, một phần của nhóm hướng dẫn %{learn_enough_link}, 
-    là một loạt %{tutorial_book} và %{screencast_link} hướng dẫn phát triển web với %{ruby_on_rails_link}. 
+    description_html: "%{tutorial_link}, một phần của nhóm hướng dẫn %{learn_enough_link},
+    là một loạt %{tutorial_book} và %{screencast_link} hướng dẫn phát triển web với %{ruby_on_rails_link}.
     Đây là ứng dụng mẫu cho hướng dẫn."
   contact:
     title: "Liên hệ"
