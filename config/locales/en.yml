@@ -67,3 +67,18 @@ en:
     title: "Contact"
     description_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_page_link}."
     contact_page: "contact page"
+  signup:
+    create_account: "Create account"
+    title: "Sign up"
+    the_form_contains: "The form contains"
+    error: "error"
+    welcome: "Welcome to the Sample App!"
+  user_not_found: "User not found!"
+  activerecord:
+    models:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"

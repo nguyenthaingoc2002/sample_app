@@ -67,3 +67,18 @@ vi:
     title: "Liên hệ"
     description_html: "Liên hệ với hướng dẫn Ruby on Rails về ứng dụng mẫu tại %{contact_page_link}."
     contact_page: "trang liên hệ"
+  signup:
+    create_account: "Tạo tài khoản"
+    title: "Đăng ký"
+    the_form_contains: "Form có"
+    error: "lỗi"
+    welcome: "Chào mừng đến với Sample App!"
+  user_not_found: "Không tìm thấy user!"
+  activerecord:
+    models:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        confirmation: "Nhập lại mật khẩu"
