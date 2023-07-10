@@ -82,3 +82,13 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
+  login:
+    title: "Log in"
+    new_user?: "Don't have an account?"
+    signup_now: "Sign up now"
+    invalid_email_password_combination: "Invalid email or password!"
+  users: "Users"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "Log out"
+  account: "Account"
