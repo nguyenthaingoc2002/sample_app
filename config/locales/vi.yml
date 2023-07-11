@@ -87,6 +87,7 @@ vi:
     new_user?: "Chưa có tài khoản?"
     signup_now: "Đăng ký ngay"
     invalid_email_password_combination: "Sai email hoặc mật khẩu!"
+    remember_me: "Ghi nhớ tài khoản trên máy tính này"
   users: "Users"
   profile: "Hồ sơ"
   settings: "Cài đặt"
