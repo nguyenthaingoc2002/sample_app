@@ -30,6 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 vi:
+  app_name: "Sample App"
   ruby_on_rails_tutorial: "Hướng dẫn về Ruby on Rails"
   ruby_on_rails_tutorial_sample_app: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   book: "sách"
@@ -73,6 +74,8 @@ vi:
     the_form_contains: "Form có"
     error: "lỗi"
     welcome: "Chào mừng đến với Sample App!"
+    mail_check: "Hãy kiểm tra email để kích hoạt tài khoản của bạn."
+    signup_failed: "Đăng ký thất bại!"
   user_not_found: "Không tìm thấy user!"
   activerecord:
     models:
@@ -88,6 +91,7 @@ vi:
     signup_now: "Đăng ký ngay"
     invalid_email_password_combination: "Sai email hoặc mật khẩu!"
     remember_me: "Ghi nhớ tài khoản trên máy tính này"
+    not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email để lấy link kích hoạt."
   users:
     title: "Users"
     heading: "Tất cả users"
@@ -108,3 +112,11 @@ vi:
   delete: "xóa"
   confirm: "Bạn chắc chứ?"
   action_not_allowed: "Bạn không được phép thực hiện hành động này!"
+  mail:
+    account_activation: "Kích hoạt tài khoản"
+    hi_message_html: "Xin chào, %{name}"
+    welcome_sentence: "Chào mừng đến với Sample App! Click vào link bên dưới để kích hoạt tài khoản:"
+    activate: "Kích hoạt"
+  account_activation:
+    activated: "Kích hoạt tài khoản thành công!"
+    invalid: "Kích hoạt tài khoản thất bại: Link invalid!"
