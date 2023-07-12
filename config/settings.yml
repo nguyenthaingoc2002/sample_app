@@ -4,3 +4,5 @@ digit:
   length_20: 20
   length_50: 50
   length_255: 255
+  size_50: 50
+  size_80: 80

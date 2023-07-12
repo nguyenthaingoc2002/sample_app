@@ -124,6 +124,8 @@ GEM
       zeitwerk (~> 2.6)
     erubi (1.12.0)
     execjs (2.8.1)
+    faker (3.2.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -164,6 +166,7 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
+    pagy (6.0.4)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -302,9 +305,11 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   config
+  faker (>= 3.2.0)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mysql2 (~> 0.5)
+  pagy
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.6)

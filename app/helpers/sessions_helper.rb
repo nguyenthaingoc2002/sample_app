@@ -15,6 +15,14 @@ module SessionsHelper
     end
   end
 
+  def current_user? user
+    user && user == current_user
+  end
+
+  def can_delete_user? user
+    current_user.admin? && !current_user?(user)
+  end
+
   def handle_remember user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
   end
@@ -39,5 +47,14 @@ module SessionsHelper
     forget current_user
     session.delete :user_id
     @current_user = nil
+  end
+
+  def redirect_back_or default_route
+    redirect_to session[:forwarding_url] || default_route
+    session.delete :forwarding_url
+  end
+
+  def store_location
+    session[:forwarding_url] = request.original_url if request.get?
   end
 end

@@ -15,7 +15,9 @@ class User < ApplicationRecord
             uniqueness: {case_sensitive: false}
 
   validates :password,
-            length: {minimum: Settings.digit.length_6}
+            presence: true,
+            length: {minimum: Settings.digit.length_6},
+            allow_nil: true
 
   has_secure_password
 
@@ -26,7 +28,7 @@ class User < ApplicationRecord
              else
                BCrypt::Engine.cost
              end
-      BCrypt::Password.create string, cost: cost
+      BCrypt::Password.create string, cost:
     end
 
     def new_token
