@@ -36,6 +36,8 @@ en:
   learn_enough: "Learn Enough"
   book: "book"
   screencast: "screencast"
+  user_not_found: "User not found!"
+  email_not_found: "Email address not found"
   header:
     title: "SAMPLE APP"
     home: "Home"
@@ -76,7 +78,6 @@ en:
     welcome: "Welcome to the Sample App!"
     mail_check: "Please check your email to activate your account."
     signup_failed: "Signup failed!"
-  user_not_found: "User not found!"
   activerecord:
     models:
     attributes:
@@ -113,6 +114,8 @@ en:
   confirm: "You sure?"
   action_not_allowed: "You are not allowed to perform this action!"
   not_correct_user: "You are not allowed to perform actions on this user!"
+  forgot_password: "Forgot password"
+  submit: "Submit"
   mail:
     account_activation: "Account activation"
     hi_message_html: "Hi, %{name}"
@@ -121,3 +124,13 @@ en:
   account_activation:
     activated: "Account activated successfully!"
     invalid: "Account activation failed: Invalid link!"
+    in_actived: "User is in_actived!"
+  reset_password:
+    sent_email: "Email sent with password reset instructions"
+    success: "Reset Password success"
+    expired: "Password reset has expired."
+    title: "Password reset"
+    click_link: "To reset your password click the link below:"
+    reset_password: "Reset password"
+    expire: "This link will expire in two hours."
+    not_request: "If you did not request your password to be reset, please ignore this email and your password will stayas it is."

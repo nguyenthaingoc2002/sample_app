@@ -23,8 +23,8 @@
         <% else %>
           <li><%= link_to t("login.title"), login_path %></li>
         <% end %>
-        <li><%= link_to t("header.english"), locale:"en" %></li>
-        <li><%= link_to t("header.vietnamese"), locale:"vi" %></li>
+        <li><%= link_to t("header.english"), request.params.merge( locale: "en" ) %></li>
+        <li><%= link_to t("header.vietnamese"), request.params.merge( locale: "vi" ) %></li>
       </ul>
     </nav>
   </div>
