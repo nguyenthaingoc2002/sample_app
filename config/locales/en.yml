@@ -38,6 +38,8 @@ en:
   screencast: "screencast"
   user_not_found: "User not found!"
   email_not_found: "Email address not found"
+  view_my_profile: "view my profile"
+  posted_ago_html: "Posted %{time} ago."
   header:
     title: "SAMPLE APP"
     home: "Home"
@@ -55,6 +57,7 @@ en:
     header: "Welcome to the Sample App"
     description_html: "This is the home page for the %{tutorial_link} sample application."
     signUp: "Sign up now!"
+    feed_heading: "Micropost Feed"
   help:
     title: "Help"
     description_html: "Get help on the Ruby on Rails Tutorial at the %{tutorial_help_link}.
@@ -80,12 +83,17 @@ en:
     signup_failed: "Signup failed!"
   activerecord:
     models:
+      user: "User"
+      micropost: "Micropost"
     attributes:
       user:
         name: "Name"
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
+      micropost:
+        content: "Content"
+        image: "Image"
   login:
     title: "Log in"
     new_user?: "Don't have an account?"
@@ -134,3 +142,17 @@ en:
     reset_password: "Reset password"
     expire: "This link will expire in two hours."
     not_request: "If you did not request your password to be reset, please ignore this email and your password will stayas it is."
+  microposts:
+    heading: "Microposts"
+    created: "Micropost created!"
+    compose_new: "Compose new micropost..."
+    post: "Post"
+    not_found_or_not_yours: "Micropost does not exist or you don't have permission!"
+    deleted_successfully: "Micropost deleted successfully!"
+    delete_failed: "An error occured while trying to delete the micropost!"
+  errors:
+    cant_be_empty: "can't be empty"
+    max_file_size: "File size should be less than %{size}MB"
+    messages:
+      invalid_image_format: "must be a valid image format"
+      invalid_image_size_html: "should be less than %{size}MB"

@@ -9,11 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "user_not_found"
-    redirect_to root_path
+    @pagy, @microposts = pagy @user.microposts
   end
 
   def new
@@ -64,14 +60,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "user_not_found"
     redirect_to root_url
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_login"
-    redirect_to login_url
   end
 
   def correct_user
