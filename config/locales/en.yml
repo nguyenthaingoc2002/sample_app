@@ -40,6 +40,11 @@ en:
   email_not_found: "Email address not found"
   view_my_profile: "view my profile"
   posted_ago_html: "Posted %{time} ago."
+  relationship_not_found: "Relationship not found!"
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
   header:
     title: "SAMPLE APP"
     home: "Home"

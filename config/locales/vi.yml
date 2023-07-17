@@ -39,6 +39,11 @@ vi:
   email_not_found: "Không tìm thấy địa chỉ email"
   view_my_profile: "xem hồ sơ của tôi"
   posted_ago_html: "Được đăng %{time} trước"
+  relationship_not_found: "Không tìm thấy quan hệ!"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Hủy theo dõi"
   header:
     title: "SAMPLE APP"
     home: "Trang chủ"
