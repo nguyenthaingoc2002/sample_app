@@ -37,6 +37,8 @@ vi:
   screencast: "video"
   user_not_found: "Không tìm thấy user!"
   email_not_found: "Không tìm thấy địa chỉ email"
+  view_my_profile: "xem hồ sơ của tôi"
+  posted_ago_html: "Được đăng %{time} trước"
   header:
     title: "SAMPLE APP"
     home: "Trang chủ"
@@ -54,6 +56,7 @@ vi:
     header: "Chào mừng đến với Sample App"
     description_html: "Đây là trang chủ của %{tutorial_link} ứng dụng mẫu."
     signUp: "Đăng ký ngay!"
+    feed_heading: "Các bài đăng"
   help:
     title: "Trợ giúp"
     description_html: "Nhận sự giúp đỡ về hướng dẫn Ruby on Rails tại %{tutorial_help_link}.
@@ -80,12 +83,17 @@ vi:
     signup_failed: "Đăng ký thất bại!"
   activerecord:
     models:
+      user: "Người dùng"
+      micropost: "Bài đăng"
     attributes:
       user:
         name: "Tên"
         email: "Email"
         password: "Mật khẩu"
         confirmation: "Nhập lại mật khẩu"
+      micropost:
+        content: "Nội dung"
+        image: "Ảnh"
   login:
     title: "Đăng nhập"
     new_user?: "Chưa có tài khoản?"
@@ -133,3 +141,17 @@ vi:
     reset_password: "Thay đổi mật khẩu"
     expire: "Đường dẫn có thời hạn trong 2 giờ"
     not_request: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên như cũ."
+  microposts:
+    created: "Đã tạo bài viết!"
+    compose_new: "Viết bài đăng mới..."
+    post: "Đăng"
+    not_found_or_not_yours: "Bài đăng không tồn tại hoặc bạn không có quyền!"
+    deleted_successfully: "Xóa bài đăng thành công!"
+    delete_failed: "Có lỗi xảy ra khi xóa bài đăng!"
+    heading: "Các bài đăng"
+  errors:
+    cant_be_empty: "không được để trống"
+    max_file_size: "Tệp phải có dung lượng ít hơn %{size}MB"
+    messages:
+      invalid_image_format: "phải đúng kiểu dữ liệu ảnh"
+      invalid_image_size_html: "phải ít hơn %{size}MB"
